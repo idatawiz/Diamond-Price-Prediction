@@ -1,1 +1,1 @@
-# Diamond-Price-Prediction
+# Diamond-Price-Prediction based on its charactertistics
