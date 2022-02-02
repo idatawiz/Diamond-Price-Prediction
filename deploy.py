@@ -69,7 +69,7 @@ def FunctionGeneratePrediction(inp_carat, inp_Length, inp_color,inp_clarity):
 app = Flask(__name__)
 
 @app.route('/my_prediction', methods=["GET"])
-def prediction_api():
+def my_prediction():
     try:
         carat_value=float(request.args.get('carat'))
         length_value=float(request.args.get('Length'))
